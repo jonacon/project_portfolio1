@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Code for the mobil view starts here*/
+
+
+
+
+
+/* Code for the mobil view starts here*/
+
+
+
+
+
+
+/*This is code to nav bar*/
+header {
+    inset-block:block ;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: black;
+    color: gold;
+
+}
+
+
+h1 {
+    font-size: 80px;
+    margin: 100px 50px 75px 100px;
+    padding: 10px 60px 75px 100px;
+    color: gold;
+
+
+}
+
+h2 {
+    font-size: 50px;
+    color: gold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+
+
+/*Code to nav bar ends here*/
+
+body {
+    background-image: url(../images/cira8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Orbitron',
+        sans-serif height 100vh;
+
+}
+
+#test {
+
+    background-image: none;
+    background-color: black;
+
+}
+
+/*Code for video gallery stars here*/
+#projecto {
+    background-image: none;
+    background-color: black;
+
+
+}
+
+
+
+
+
+article div {
+
+    border: 1px solid yellow;
+    width: 400px;
+    height: 300px;
+    display: flex;
+
+
+
+}
+
+.container_principal {
+    display: flex;
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+
+
+#article_videos {
+    width: 400px;
+    height: 600px;
+}
+
+article {
+    background-color: gold;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+/*Code for video gallery ends here*/
+
+
+
+/*Code for phote container starts here*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 300px;
+    grid-gap: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+}
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.gallery-item .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.gallery-item:hover .image img {
+    transform: scale(1.5);
+}
+
+.w-1 {
+    grid-column: span 1;
+}
+
+.w-2 {
+    grid-column: span 2;
+}
+
+.w-3 {
+    grid-column: span 3;
+}
+
+.w-4 {
+    grid-column: span 4;
+}
+
+.h-1 {
+    grid-row: span 1;
+
+}
+
+.h-2 {
+    grid-row: span 2;
+
+}
+
+.h-3 {
+    grid-row: span 3;
+
+}
+
+.h-4 {
+    grid-row: span 4;
+
+}
+
+
+/*Code for phote container ends here*/
+
+
+
+/*code for contact form tarts here */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: gold;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
+    color: gold;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+
+/*code for contact for ends here*/
+
+
+
+p {
+    color: gold;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 120px;
+
+
+
+}
+
+
+
+
+form {
+    color: peachpuff;
+    width: 50%;
+
+    font-size: 25px;
+
+    float: center;
+    margin-right: 40px;
+    margin-left: 30px;
+
+}
+
+body {
+    font-family: 'Orbitron',
+        sans-serif;
+}
+
+/*code for css project gallery starts here */
+
+.gallery {
+    border: 10px solid black;
+    margin: 25px 50px 75px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-areas:
+        "box1 box2"
+        "box1 box3"
+        "box1 box4";
+    align-items: center;
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box {
+    grid-area: box4;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery video {
+    width: 100%;
+}
+
+.gallery iframe {
+    width: 100%;
+}
+
+/*code for css project gallery ends here */
+
+
+
+
+
+
+footer {
+    /*Code to place fotter on the bottom*/
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 50px;
+}
+
+/*Code for bootom placement ends here*/
+
+/*screen size change with media for movil starts here*/
+
+
+
+@media screen and (max-width: 460px) {
+    header ul li {
+        float: none;
+        width: 100%;
+    }
+}
+
+/*screen size change with media for movil ens here*/
+
+@media screen and (min-width: 1800px) {
+    h1{
+        font-size: 120px;
+    }
+}

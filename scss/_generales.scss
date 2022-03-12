@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/cira8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Orbitron',
+        sans-serif height 100vh;
+
+        h1 {
+            color: gold;
+            font-size: 80px;
+            margin: 100px 50px 75px 100px;
+            padding: 10px 60px 75px 100px;
+            
+
+
+        }
+        h2 {
+            font-size: 50px;
+            color: gold;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            margin-right: 150px;
+            margin-left: 80px;
+
+        }
+
+}
