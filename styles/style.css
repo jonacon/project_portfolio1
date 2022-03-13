@@ -50,13 +50,14 @@ body {
     margin-right: 150px;
     margin-left: 80px; }
 
-.half {
+.half, .full {
   color: gold;
   width: 500px; }
 
-.full {
-  color: gold;
-  width: 500px; }
+.reset {
+  height: 20px;
+  width: 50px;
+  background-color: white; }
 
 #test {
   background-image: none;
@@ -92,7 +93,7 @@ article {
   align-items: center; }
 
 /*Code for video gallery ends here*/
-/*Code for phote container starts here*/
+/*Code for photo container starts here*/
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

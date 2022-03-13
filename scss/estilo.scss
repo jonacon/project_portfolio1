@@ -13,9 +13,33 @@ $gold: gold;
 }
 
 .full{
-    color: gold;
-    width: $width/2;
+   @extend .half 
 }
+
+
+
+
+
+@mixin size ($width,$height){
+    height: $height;
+    width: $width;
+}
+
+.reset {
+    @include size(50px, 20px);
+    background-color: white;
+};
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
@@ -77,7 +101,7 @@ article {
 
 
 
-/*Code for phote container starts here*/
+/*Code for photo container starts here*/
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
