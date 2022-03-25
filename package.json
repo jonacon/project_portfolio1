@@ -297,5 +297,13 @@
     "yargs": "^17.3.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonacon/project_portfolio1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonacon/project_portfolio1/issues"
+  },
+  "homepage": "https://github.com/jonacon/project_portfolio1#readme",
   "description": ""
 }
