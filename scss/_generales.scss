@@ -12,11 +12,11 @@ body {
     font-family: 'Orbitron',
         sans-serif height 100vh;
 
-        h1 {
+        h1,  {
             color: gold;
             font-size: 80px;
-            margin: 100px 50px 75px 100px;
-            padding: 10px 60px 75px 100px;
+            margin: 100px 50px 1px 60px;
+            padding: 10px 60px 1px 20px;
             
 
 
@@ -28,7 +28,15 @@ body {
             margin-bottom: 50px;
             margin-right: 150px;
             margin-left: 80px;
+        }
+        h6{
+            color: gold;
+            font-size: 22px;
+            margin: 10px 50px 10px 120px;
+            padding: 10px 60px 5px 287px;
+
 
         }
+        
 
 }
